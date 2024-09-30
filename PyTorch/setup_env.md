@@ -31,8 +31,13 @@ conda install matplotlib
 conda install plotly
 ```
   
-8.) Open Anaconda Navigator and select the <i> pytorch </i> environment on the homepage
+8.) Install seaborn for data visualization
+```
+conda install plotly
+```
   
-9.) Press the <i> Install </i> button for Jupyter Notebook
+9.) Open Anaconda Navigator and select the <i> pytorch </i> environment on the homepage
+  
+10.) Press the <i> Install </i> button for Jupyter Notebook
 
 You now have an environment called <i> pytorch </i> in the Anaconda Navigator that can be launched with Jupyter Notebook
