@@ -13,6 +13,6 @@ matplotlib/3.9.2
 plotly/5.24.1  
 seaborn/0.13.2
 
-installation instructions for environment can be found [here](setup_env.md) 
+Installation instructions for environment can be found [here](setup_env.md). 
 
 
