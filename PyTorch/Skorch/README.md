@@ -5,7 +5,7 @@ Jupyter Notebook via Anaconda
 
 notebook/7.2.2  
 python/3.12.3  
-pytorch/2.4.1
+pytorch/2.4.1  
 skorch/1.0.0  
 numpy/1.26.4  
 pandas/2.2.2  
