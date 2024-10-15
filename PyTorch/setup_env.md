@@ -3,7 +3,7 @@
   
 2.) Update the Anaconda install
 ```
-conda update -- all
+conda update --all
 ```
   
 3.) Create pytorch environment
