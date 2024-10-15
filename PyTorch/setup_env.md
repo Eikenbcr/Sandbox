@@ -33,7 +33,7 @@ conda install plotly
   
 8.) Install seaborn for data visualization
 ```
-conda install plotly
+conda install seaborn
 ```
   
 9.) Open Anaconda Navigator and select the <i> pytorch </i> environment on the homepage
