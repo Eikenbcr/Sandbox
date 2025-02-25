@@ -2,7 +2,7 @@
 Repository to learn PyTorch for data analysis  
 
 ## <u> Environment </u>
-Jupyter Notebook via VSCode 
+Jupyter via VSCode 
 
 iPython/8.32.0  
 python/3.12.3  
