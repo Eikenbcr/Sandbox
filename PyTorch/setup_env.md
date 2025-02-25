@@ -1,43 +1,38 @@
 # Instructions to setup PyTorch environment on Anaconda  
-1.) Open the Anaconda Prompt
-  
-2.) Update the Anaconda install
+1.) Create venv in Sandbox Repo
 ```
-conda update --all
+python -m venv pytorch_env
+```  
+2.) Activate venv 
 ```
-  
-3.) Create pytorch environment
-```
-conda create --name pytorch
+.\pytorch_env\Scripts\activate
 ```
   
-4.) Activate the new environment
+3.) Install Torch and dependencies
 ```
-conda activate pytorch
-```
-  
-5.) Install PyTorch with conda
-```
-conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
   
-6.) Install matplotlib for data visualization
+4.) Install pandas
 ```
-conda install matplotlib
-```
-  
-7.) Install plotly for data visualization
-```
-conda install plotly
+pip install pandas
 ```
   
-8.) Install seaborn for data visualization
+5.) Install matplotlib
 ```
-conda install seaborn
+pip install matplotlib
 ```
   
-9.) Open Anaconda Navigator and select the <i> pytorch </i> environment on the homepage
-  
-10.) Press the <i> Install </i> button for Jupyter Notebook
+7.) Deativate venv
+```
+.\pytorch_env\Scripts\deactivate
+```
 
-You now have an environment called <i> pytorch </i> in the Anaconda Navigator that can be launched with Jupyter Notebook
+  
+8.) In VSCode, press CTRL + SHIFT + P to Python Commands
+  
+9.) Python:Select Interpreter 
+
+10.) Select pytorch_env from the list 
+
+The pytorch_env should now be loaded in VSCode. You can open .ipynb files and run them within VSCode. You will also need to install some Jupyter and iPython dependencies. These will be automatically installed when you load the pytorch_env Kernel in the .ipynb file.
