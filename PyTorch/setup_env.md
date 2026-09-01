@@ -1,7 +1,7 @@
 # Instructions to setup PyTorch environment on Anaconda  
 1.) Create venv in Sandbox Repo
 ```
-python -m venv pytorch_env
+python3.13 -m venv pytorch_env.venv
 ```  
 2.) Activate venv 
 ```
@@ -10,7 +10,7 @@ python -m venv pytorch_env
   
 3.) Install Torch and dependencies
 ```
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu132
 ```
   
 4.) Install pandas
